@@ -1,0 +1,24 @@
+import java.util.Scanner;
+//public static void main(String[] args)
+//public class main()
+
+public class DisplayEnteredText 
+{
+
+    public static void main(String[] args) 
+    {
+        Scanner scanner = new Scanner(System.in);
+
+        // Prompt user to enter text
+        System.out.print("Enter some text: ");
+        
+        // Read user input
+        String enteredText = scanner.nextLine();
+
+        // Display the entered text as result
+        System.out.println("You entered: " + enteredText);
+
+        // Close the scanner
+        scanner.close();
+    }
+}
